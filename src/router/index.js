@@ -26,6 +26,7 @@ const routes = [
         name:'research',
         component:()=>import(/*webpackChunkName:'Login'*/'@/page/research/research.vue')
     },
+<<<<<<< HEAD
     {
         path: '/progress',
         name: 'progress',
@@ -46,6 +47,8 @@ const routes = [
         name:'resources',
         component:()=>import('@/page/resources/resources.vue')
     }
+=======
+>>>>>>> 7d34d15706e3b25335c6766b745ce64d93514324
 ]
 
 const router = createRouter(

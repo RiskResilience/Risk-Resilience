@@ -1,4 +1,5 @@
 <template>
+<<<<<<< HEAD
   <div class="page-container">
     <div class="section">
       <div class="content-wrapper">
@@ -64,6 +65,72 @@
           </div>
         </section>
       </div>
+=======
+  <div class="container">
+    <div class="content-wrapper">
+      <!-- 个人简介 -->
+      <section class="section">
+        <div class="section-title">
+          <el-icon><User /></el-icon>
+          <span>{{ currentLanguage.titles.profile }}</span>
+        </div>
+        <div class="section-content">
+          {{ currentLanguage.profile }}
+        </div>
+      </section>
+
+      <!-- 教育背景 -->
+      <section class="section">
+        <div class="section-title">
+          <el-icon><School /></el-icon>
+          <span>{{ currentLanguage.titles.education }}</span>
+        </div>
+        <div class="section-content">
+          <ul class="education-list">
+            <li v-for="(item, index) in currentLanguage.education" :key="index">{{ item }}</li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- 研究方向 -->
+      <section class="section">
+        <div class="section-title">
+          <el-icon><Aim /></el-icon>
+          <span>{{ currentLanguage.titles.research }}</span>
+        </div>
+        <div class="section-content">
+          <ul class="research-list">
+            <li v-for="(item, index) in currentLanguage.research" :key="index">{{ item }}</li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- 工作经历 -->
+      <section class="section">
+        <div class="section-title">
+          <el-icon><Briefcase /></el-icon>
+          <span>{{ currentLanguage.titles.work }}</span>
+        </div>
+        <div class="section-content">
+          <ul class="work-list">
+            <li v-for="(item, index) in currentLanguage.work" :key="index">{{ item }}</li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- 联系方式 -->
+      <section class="section">
+        <div class="section-title">
+          <el-icon><Message /></el-icon>
+          <span>{{ currentLanguage.titles.contact }}</span>
+        </div>
+        <div class="section-content">
+          <ul class="contact-list">
+            <li v-for="(item, index) in currentLanguage.contact" :key="index">{{ item }}</li>
+          </ul>
+        </div>
+      </section>
+>>>>>>> 7d34d15706e3b25335c6766b745ce64d93514324
     </div>
   </div>
 </template>
@@ -84,6 +151,7 @@ const languages = {
       work: "工作经历",
       contact: "联系方式"
     },
+<<<<<<< HEAD
     profile: "副教授，硕士生导师。中国海洋大学物理海洋学士，北京师范大学自然灾害学博士，华东师范大学博士后，上海市青年英才扬帆人才，国际应用系统分析研究所（IIASA）和英国南安普顿大学访问学者。主要从事气候变化自然灾害致灾机理、灾害风险评估和可持续发展等研究。主持国家自然科学基金、浙江省自然科学基金重点项目、博士后面上基金等项目，作为项目骨干参与多项国家重点研发项目。近年来在Science, Nature Climate Change, Nature Communications累计发表论文40余篇，参与著作和国际报告4部。其中核心成果包括，以第一和通讯作者发表SCI论文二十余篇（含Nature Communications第一作者）。担任中国地理学会自然灾害风险与综合减灾专业委员会委员。获得了浙江省地理学会青年科技奖、先进工作者称号，研究成果入选了\"2023年度浙江省青年科技工作者优秀论文\"。",
     education: [
       "2013/9-2018/6 北京师范大学 减灾与应急管理研究院 自然灾害学（保送直博）",
@@ -93,11 +161,26 @@ const languages = {
     ],
     research: [
       "气候变化下自然灾害致灾机理研究：海平面上升，海岸洪水，暴雨、多灾种及灾害链复合效应",
+=======
+    profile: "方佳毅，博士，副教授，硕士生导师。中国海洋大学物理海洋学士，北京师范大学自然灾害学博士，华东师范大学博士后，上海市青年英才扬帆人才，国际应用系统分析研究所（IIASA）和英国南安普顿大学访问学者。主要从事气候变化自然灾害致灾机理、灾害风险评估和可持续发展等研究。主持国家自然科学基金、博士后面上基金等项目，作为项目骨干参与多项国家重点研发项目。在《Science》《Nature Climate Change》《Nature Communications》等期刊发表论文40余篇。担任中国地理学会自然灾害风险与综合减灾专业委员会委员。获得了浙江省地理学会先进工作者称号，研究成果入选了\"2023年度浙江省青年科技工作者优秀论文\"。",
+    education: [
+      "2016.1-2017.7 英国南安普顿大学/英国国家海洋研究中心 公派出国",
+      "2015.5-2015.8 奥地利维也纳国际应用分析研究所 YSSP交流访学",
+      "2013.9-2018.6 北京师范大学 减灾与应急管理研究院 自然灾害学 保送直博",
+      "2009.9-2013.6 中国海洋大学 海洋环境学院 物理海洋学（人才基地班）本科"
+    ],
+    research: [
+      "气候变化下自然灾害致灾机理研究：海平面上升，海岸洪水，多灾种及灾害链复合效应",
+>>>>>>> 7d34d15706e3b25335c6766b745ce64d93514324
       "沿海城市自然灾害风险评估与适应：脆弱性、恢复性、适应措施及风险评估",
       "海岸带人-环境系统可持续发展研究：海岸带生态系统服务、生态减灾及可持续发展"
     ],
     work: [
+<<<<<<< HEAD
       "2022.8-至今  杭州师范大学 遥感与地球科学研究院 副教授",
+=======
+      "2022.8-至今  杭州师范大学 信息科学与技术学院 遥感与地球科学研究院 副教授",
+>>>>>>> 7d34d15706e3b25335c6766b745ce64d93514324
       "2018.7-2022.8 华东师范大学 地理科学学院 博士后/助理研究员"
     ],
     contact: [
@@ -144,6 +227,7 @@ const currentLanguage = computed(() => languages[locale.value])
 </script>
 
 <style scoped>
+<<<<<<< HEAD
 .page-container {
   padding: 1.25rem;
   width: 70%;
@@ -167,6 +251,18 @@ h3 {
   border-radius: 8px;
   box-shadow: 0 2px 12px rgba(0,0,0,0.03);
   padding: 20px;
+=======
+.container {
+  margin-top: 30px;
+  padding: 20px;
+  max-width: 800px;
+  margin: 20px 0 0 0%;
+}
+.content-wrapper {
+  background: none;
+  padding: 0;
+  box-shadow: none;
+>>>>>>> 7d34d15706e3b25335c6766b745ce64d93514324
 }
 
 .section {
@@ -230,10 +326,15 @@ li {
 }
 
 @media (max-width: 768px) {
+<<<<<<< HEAD
   .page-container {
     width: 90%;
     margin: 1rem auto;
     padding: 1rem;
+=======
+  .container {
+    padding: 15px;
+>>>>>>> 7d34d15706e3b25335c6766b745ce64d93514324
   }
 
   .section-content {

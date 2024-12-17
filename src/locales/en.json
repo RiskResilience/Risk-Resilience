@@ -1,4 +1,14 @@
 {
+<<<<<<< HEAD
+=======
+  "nav": {
+    "academic": "Academic achievement",
+    "honors": "Honors",
+    "members": "Members",
+    "research": "Research",
+    "home": "Jiayi Fang's Academic page"
+  },
+>>>>>>> 7d34d15706e3b25335c6766b745ce64d93514324
   "home": {
     "titles": {
       "profile": "Profile",
@@ -7,7 +17,11 @@
       "work": "Work Experience",
       "contact": "Contact"
     },
+<<<<<<< HEAD
     "profile": "Dr. Jiayi FANG, Associate Professor. Dr. Fang specializes in research on the mechanisms of natural disasters, disaster risk assessment, and sustainable development. She visited International Institute for Applied Systems Analysis (IIASA) and the University of Southampton, UK for nearly two years. Dr. Fang has published over 40 papers such as Science, Nature Climate Change, and Nature Communications. Additionally, Dr. Fang serves as a member of the Natural Disaster Risk and Integrated Disaster Reduction Professional Committee of the China Geographical Society, has been recognized with the title of \"Sailing Talent\" in Shanghai and the designation of Advanced Worker by the Zhejiang Geographical Society. Her research was also honored with the inclusion of \"Outstanding Paper by Young Science and Technology Workers in Zhejiang Province for the year 2023.\"",
+=======
+    "profile": "Dr. Jiayi Fang is an Associate Professor at Hangzhou Normal University. He received his B.S. in Physical Oceanography from Ocean University of China and Ph.D. in Natural Disasters from Beijing Normal University. He was a postdoctoral researcher at East China Normal University and a visiting scholar at the International Institute for Applied Systems Analysis (IIASA) and the University of Southampton. His research focuses on natural disaster mechanisms under climate change, disaster risk assessment, and sustainable development. He has led multiple projects funded by the National Natural Science Foundation of China and participated in several national key research projects. He has published over 40 papers in journals including Science, Nature Climate Change, and Nature Communications. He serves as a committee member of the Natural Disaster Risk and Comprehensive Disaster Reduction Committee of the Geographical Society of China.",
+>>>>>>> 7d34d15706e3b25335c6766b745ce64d93514324
     "education": [
       "2016.1-2017.7 Visiting Scholar, University of Southampton/National Oceanography Centre, UK",
       "2015.5-2015.8 YSSP Fellow, International Institute for Applied Systems Analysis, Austria",

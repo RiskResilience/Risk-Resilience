@@ -3,6 +3,7 @@
     <div class="header-border-top"></div>
     <div class="wrapper">
       <nav class="header-nav">
+<<<<<<< HEAD
         <router-link class="site-title" to="/">方佳毅学术主页</router-link>
         <div class="nav-links">
           <router-link to="/academic">学术成果</router-link>
@@ -14,6 +15,15 @@
           <router-link to="/advertisement">广告</router-link>
           <router-link to="/resources">共享资源</router-link>
           <router-link to="/" @click="handleLanguageChange" class="lang-switch">EN/CH</router-link>
+=======
+        <router-link class="site-title" to="/">{{ $t('nav.home') }}</router-link>
+        <div class="nav-links">
+          <router-link to="/academic">{{ $t('nav.academic') }}</router-link>
+          <router-link to="/honors">{{ $t('nav.honors') }}</router-link>
+          <router-link to="/members">{{ $t('nav.members') }}</router-link>
+          <router-link to="/research">{{ $t('nav.research') }}</router-link>
+          <a @click="handleLanguageChange" class="lang-switch">EN/CH</a>
+>>>>>>> 7d34d15706e3b25335c6766b745ce64d93514324
         </div>
       </nav>
     </div>
@@ -28,9 +38,12 @@ const { locale } = useI18n()
 
 const handleLanguageChange = () => {
   locale.value = locale.value === 'zh' ? 'en' : 'zh'
+<<<<<<< HEAD
   if (window.location.hash !== '#/') {
     window.location.hash = '#/'
   }
+=======
+>>>>>>> 7d34d15706e3b25335c6766b745ce64d93514324
 }
 </script>
 
@@ -46,29 +59,48 @@ const handleLanguageChange = () => {
 }
 
 .wrapper {
+<<<<<<< HEAD
   max-width: 80%;
   margin: 0 auto;
   padding: 0 5%;
+=======
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 200px 0 360px;
+>>>>>>> 7d34d15706e3b25335c6766b745ce64d93514324
 }
 
 .header-nav {
   display: flex;
   justify-content: flex-start;
   align-items: center;
+<<<<<<< HEAD
   padding: 1.5vh 0;
+=======
+  padding: 20px 0;
+>>>>>>> 7d34d15706e3b25335c6766b745ce64d93514324
 }
 
 .nav-links {
   display: flex;
+<<<<<<< HEAD
   gap: 3rem;
+=======
+  gap: 50px;
+>>>>>>> 7d34d15706e3b25335c6766b745ce64d93514324
   align-items: center;
 }
 
 .nav-links a {
   color: #666;
   text-decoration: none;
+<<<<<<< HEAD
   font-size: 1.125rem;
   padding: 0.5rem 0;
+=======
+  font-size: 18px;
+  padding: 8px 0;
+>>>>>>> 7d34d15706e3b25335c6766b745ce64d93514324
   position: relative;
 }
 
@@ -93,13 +125,22 @@ const handleLanguageChange = () => {
 }
 
 .site-title {
+<<<<<<< HEAD
   margin-right: 6rem;
   font-size: 1.375rem;
+=======
+  margin-right: 100px;
+  font-size: 22px;
+>>>>>>> 7d34d15706e3b25335c6766b745ce64d93514324
   color: #666;
   text-decoration: none;
   font-weight: bold;
   position: relative;
+<<<<<<< HEAD
   padding: 0.5rem 0;
+=======
+  padding: 8px 0;
+>>>>>>> 7d34d15706e3b25335c6766b745ce64d93514324
 }
 
 .header-border-top,
@@ -144,6 +185,7 @@ const handleLanguageChange = () => {
 
 @media (max-width: 768px) {
   .wrapper {
+<<<<<<< HEAD
     padding: 0 1rem;
     max-width: 100%;
   }
@@ -178,6 +220,22 @@ const handleLanguageChange = () => {
   .site-title {
     margin-right: 0;
     margin-bottom: 0.5rem;
+=======
+    padding: 0 20px;
+  }
+
+  .nav-links {
+    gap: 20px;
+  }
+
+  .site-title {
+    margin-right: 30px;
+    font-size: 18px;
+  }
+
+  .nav-links a {
+    font-size: 14px;
+>>>>>>> 7d34d15706e3b25335c6766b745ce64d93514324
   }
 }
 </style>
