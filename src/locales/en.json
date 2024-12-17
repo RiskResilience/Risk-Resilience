@@ -1,0 +1,31 @@
+{
+  "home": {
+    "titles": {
+      "profile": "Profile",
+      "education": "Education",
+      "research": "Research Interests",
+      "work": "Work Experience",
+      "contact": "Contact"
+    },
+    "profile": "Dr. Jiayi FANG, Associate Professor. Dr. Fang specializes in research on the mechanisms of natural disasters, disaster risk assessment, and sustainable development. She visited International Institute for Applied Systems Analysis (IIASA) and the University of Southampton, UK for nearly two years. Dr. Fang has published over 40 papers such as Science, Nature Climate Change, and Nature Communications. Additionally, Dr. Fang serves as a member of the Natural Disaster Risk and Integrated Disaster Reduction Professional Committee of the China Geographical Society, has been recognized with the title of \"Sailing Talent\" in Shanghai and the designation of Advanced Worker by the Zhejiang Geographical Society. Her research was also honored with the inclusion of \"Outstanding Paper by Young Science and Technology Workers in Zhejiang Province for the year 2023.\"",
+    "education": [
+      "2016.1-2017.7 Visiting Scholar, University of Southampton/National Oceanography Centre, UK",
+      "2015.5-2015.8 YSSP Fellow, International Institute for Applied Systems Analysis, Austria",
+      "2013.9-2018.6 Ph.D. in Natural Disasters, Beijing Normal University",
+      "2009.9-2013.6 B.S. in Physical Oceanography, Ocean University of China"
+    ],
+    "research": [
+      "Natural Disaster Mechanisms under Climate Change: Sea Level Rise, Coastal Flooding, Multi-hazard and Compound Effects",
+      "Coastal Urban Disaster Risk Assessment and Adaptation: Vulnerability, Resilience, Adaptation Measures and Risk Assessment",
+      "Human-Environment System Sustainability in Coastal Zones: Ecosystem Services, Ecological Disaster Reduction and Sustainable Development"
+    ],
+    "work": [
+      "2022.8-Present Associate Professor, School of Information Science and Technology, Hangzhou Normal University",
+      "2018.7-2022.8 Postdoctoral Researcher/Assistant Researcher, School of Geographic Sciences, East China Normal University"
+    ],
+    "contact": [
+      "Email: jyfang@hznu.edu.cn",
+      "Office: Building 23, Qinyuan Campus, Hangzhou Normal University"
+    ]
+  }
+}
